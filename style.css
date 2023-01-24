@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container { 
+    height: 90vh;
+    width: 90vw;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28px;   
+}
+
+.inscrib {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 130px;
+}
+.boxs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inscrib h1 {
+    color: #1877f2;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscrib p {
+ font-size: 1.8rem;
+ font-family: Arial, 'Helvetica', sans-serif;
+ width: 100%;
+
+}
+
+.outline{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    
+}
+.outline input {
+    padding: 16px 0;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 5px;
+} 
+.outline input:focus {
+    outline: 1.5px solid #1877f2;
+
+}
+
+form p {
+    text-align: center;
+    margin: 10px 0;
+
+ } 
+ form p a {
+    text-decoration: none;
+    color: #1877f2;
+
+ }
+form button {
+    padding: 16px 0;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius:5px;
+    border: none;
+    font: size 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ } 
+ #newAc {
+    background-color:#42b72a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 0 ;
+    font-size: 1.2rem;
+    width: 60%;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.8rem 0;
+}
+.bar {
+    padding-top: 20px;
+    text-align: center;
+    
+}
